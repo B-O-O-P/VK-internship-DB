@@ -5,9 +5,9 @@
 
 class VectorIntersection {
 public:
-    static int hashVectorInterSecrion(std::vector<int>& A, std::vector<int>& B);
-    static int binSearchVectorInterSecrion(std::vector<int>& A, std::vector<int>& B);
-    static int nativeVectorInterSecrion(std::vector<int>& A, std::vector<int>& B);
+    static int hashVectorInterSection(std::vector<int>& A, std::vector<int>& B);
+    static int binSearchVectorInterSection(std::vector<int>& A, std::vector<int>& B);
+    static int nativeVectorInterSection(std::vector<int>& A, std::vector<int>& B);
 
 };
 

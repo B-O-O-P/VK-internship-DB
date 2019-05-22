@@ -13,9 +13,9 @@
 #include "VectorIntersectionTests.h"
 
 int main() {
-    VectorIntersectionTests tests(VectorIntersection::hashVectorInterSecrion,
-                                  VectorIntersection::binSearchVectorInterSecrion,
-                                  VectorIntersection::nativeVectorInterSecrion);
+    VectorIntersectionTests tests(VectorIntersection::hashVectorInterSection,
+                                  VectorIntersection::binSearchVectorInterSection,
+                                  VectorIntersection::nativeVectorInterSection);
 
     if (tests.test("EMPTY", 1, 0, 0, 0, 0)) {
         std::cout << "\n_______________________\n"

@@ -3,7 +3,7 @@
 
 #include "VectorIntersection.h"
 
-int VectorIntersection::hashVectorInterSecrion(std::vector<int>& A, std::vector<int>& B) {
+int VectorIntersection::hashVectorInterSection(std::vector<int>& A, std::vector<int>& B) {
     if (A.empty() || B.empty()) {
         return 0;
     }
@@ -27,7 +27,7 @@ int VectorIntersection::hashVectorInterSecrion(std::vector<int>& A, std::vector<
     return result;
 }
 
-int VectorIntersection::binSearchVectorInterSecrion(std::vector<int>& A, std::vector<int>& B) {
+int VectorIntersection::binSearchVectorInterSection(std::vector<int>& A, std::vector<int>& B) {
     if (A.empty() || B.empty()) {
         return 0;
     }
@@ -50,7 +50,7 @@ int VectorIntersection::binSearchVectorInterSecrion(std::vector<int>& A, std::ve
     return result;
 }
 
-int VectorIntersection::nativeVectorInterSecrion(std::vector<int>& A, std::vector<int>& B) {
+int VectorIntersection::nativeVectorInterSection(std::vector<int>& A, std::vector<int>& B) {
     if (A.empty() || B.empty()) {
         return 0;
     }
