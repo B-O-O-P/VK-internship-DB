@@ -40,9 +40,7 @@
 * https://stefanheule.com/papers/edbt13-hyperloglog.pdf
 * http://www.moderndescartes.com/essays/hyperloglog/
 
-Реализация использует по умолчанию [vector](https://en.cppreference.com/w/cpp/container/vector) 8-битных чисел на 256 элементов (2048 бит), одно 32-битное и 8-битное поле, 32-битная константа.
-
-Для увелечения точности можно увеличить разрядность регистра.
+По умолчанию разрядность регистра равна 8, но для повышения точности можно её увеличить.
 
 * [**Main**](Task%202/main.cpp) - запуск тестов.
 * [**Header алгоритма**](Task%202/UniqCounter.h).
